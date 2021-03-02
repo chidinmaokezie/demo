@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html inputs</title>
+  </head>
+  <body>
+    <h1>Lesson on html input types</h1>
+    <form>
+      Name:<br />
+      <input type="text" /> <br />
+      Password: <br />
+      <input type="password" />
+      <br />
+      <br />
+      <input type="submit" value="submit" />
+      <input type="reset" value="reset" />
+    </form>
+
+    <form>
+      <input type="radio" name="gender" value="male" /> male <br />
+      <input type="radio" name="gender" value="female" /> female <br />
+      <br />
+      <input type="checkbox" value="math" /> Math <br />
+      <input type="checkbox" value="English" /> English <br />
+      <input type="checkbox" value="Science" /> Science <br />
+      <br />
+      <br />
+    </form>
+
+    <form>
+      <input
+        type="button"
+        value="button"
+        onclick="alert('Hello Youtube')"
+      /><br />
+    </form>
+
+    <form>
+      <p>colour</p>
+      <input type="color" id="send" oninput="result.value=send.value" />
+      <input type="text" id="result" />
+      <br />
+      <br />
+      <p>date</p>
+      <input type="date" id="send" oninput="result.value=send.value" />
+      <input type="text" id="result" />
+      <br />
+      <p>date time local</p>
+      <input
+        type="datetime-local"
+        id="send"
+        oninput="result.value=send.value"
+      />
+      <input type="text" id="result" />
+      <br /><br /><br />
+      <p>email</p>
+      <input type="email" id="send" oninput="result.value=send.value" /><br />
+      <input type="submit" /><br />
+      <input type="text" id="result" />
+      <br /><br /><br />
+      <p>month</p>
+      <input type="month" id="send" oninput="result.value=send.value" /><br />
+      <input type="submit" /><br />
+      <input type="text" id="result" />
+      <br /><br /><br />
+      <p>number</p>
+      <input type="number" id="send" oninput="result.value=send.value" /><br />
+      <input type="submit" /><br />
+      <input type="text" id="result" />
+      <br /><br /><br />
+      <p>range</p>
+      <input
+        type="range"
+        id="send"
+        min="0"
+        max="20"
+        oninput="result.value=send.value"
+      /><br />
+      <input type="submit" /><br />
+      <input type="text" id="result" />
+      <br /><br /><br />
+      <p>week</p>
+      <input type="week" id="send" oninput="result.value=send.value" /><br />
+      <input type="submit" /><br />
+      <input type="text" id="result" />
+    </form>
+  </body>
+</html>
